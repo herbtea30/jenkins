@@ -10,4 +10,9 @@ public class TestController {
     public String test() {
         return "test-test";
     }
+
+    @GetMapping("/jenkins")
+    public String test2() {
+        return "slack notification Test";
+    }
 }
