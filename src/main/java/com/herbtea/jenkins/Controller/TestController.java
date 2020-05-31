@@ -18,6 +18,6 @@ public class TestController {
 
     @GetMapping("/deploy")
     public String test3() {
-        return "CD Test!!";
+        return "CD Test!";
     }
 }
