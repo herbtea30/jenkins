@@ -15,4 +15,9 @@ public class TestController {
     public String test2() {
         return "slack notification Test";
     }
+
+    @GetMapping("/deploy")
+    public String test3() {
+        return "CD Test";
+    }
 }
